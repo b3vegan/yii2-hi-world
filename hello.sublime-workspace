@@ -1,0 +1,717 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"video",
+				"videoId"
+			],
+			[
+				"category",
+				"categoryTopics"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"script",
+				"scriptsrc	script-src"
+			],
+			[
+				"if",
+				"ife	if … else"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"customer",
+				"customer_type"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"fi",
+				"field_option"
+			],
+			[
+				"id_order",
+				"id_order_state"
+			],
+			[
+				"order",
+				"orderStates"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"_list",
+				"_listTotal"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"tmp",
+				"tmp_file"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"syn json",
+				"Set Syntax: JSON"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"dash",
+				"DashDoc: invoke Dash with selected word"
+			],
+			[
+				"package dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"syn bas",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"ssjque",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"ssjqu",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"ssjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sftp",
+				"SFTP: Edit Server…"
+			],
+			[
+				"gist",
+				"Gist: Create Public Gist"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"open bro",
+				"File: Open In Browser - Testing Server"
+			],
+			[
+				"open br",
+				"File: Open In Browser - Testing Server"
+			],
+			[
+				"browser",
+				"File: Open In Browser - Testing Server"
+			],
+			[
+				"open in bro",
+				"File: Open In Browser - Testing Server"
+			],
+			[
+				"task",
+				"Tasks: New document"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"gist ",
+				"Gist: Open Gist"
+			],
+			[
+				"gist br",
+				"Gist: Open Gist in Browser"
+			],
+			[
+				"open gist",
+				"Gist: Open Gist"
+			],
+			[
+				"publi",
+				"Gist: Create Public Gist"
+			],
+			[
+				"create gist",
+				"Gist: Create Public Gist"
+			],
+			[
+				"public",
+				"Gist: Create Public Gist"
+			],
+			[
+				"create",
+				"Gist: Create Public Gist"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"fetch",
+				"Fetch: Package"
+			],
+			[
+				"syntax php",
+				"Set Syntax: PHP"
+			],
+			[
+				"snippet php",
+				"Snippet: <?php echo htmlentities(…) ?>"
+			],
+			[
+				"ajax",
+				"Snippet: jQuery AJAX call"
+			],
+			[
+				"jquery",
+				"Snippet: jQuery.ajax"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"snippet",
+				"Snippet: Prototype"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			],
+			[
+				"sy h",
+				"Set Syntax: HTML"
+			],
+			[
+				"syn html",
+				"Set Syntax: HTML"
+			],
+			[
+				"HTML",
+				"Set Syntax: HTML"
+			],
+			[
+				"syntax",
+				"Set Syntax: HTML"
+			],
+			[
+				"syntax html",
+				"Set Syntax: HTML"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"syn",
+				"Set Syntax: HTML"
+			],
+			[
+				"fet",
+				"Fetch: Manage"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 167.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Applications/MAMP/htdocs/hello"
+	],
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/twitter-widget-source/demo 4/js/twitter-widget.js",
+		"/Users/flintlee/Desktop/Crockford Best Practices.js",
+		"/Users/flintlee/Desktop/Crockford Best Practices",
+		"/Applications/MAMP/htdocs/jvb/js/fadeslideshow.js",
+		"/Applications/MAMP/htdocs/jvb/todo.txt",
+		"/Applications/MAMP/htdocs/jvb/html files/about.html",
+		"/Applications/MAMP/htdocs/jvb/index.php",
+		"/Applications/MAMP/htdocs/jvb/css/font_style.css",
+		"/Applications/MAMP/htdocs/jvb/css/main_style.css",
+		"/Applications/MAMP/htdocs/jvb/include/header.php",
+		"/Applications/MAMP/htdocs/jvb/include/footer.php",
+		"/Applications/MAMP/htdocs/jvb/partials/banner.php",
+		"/Applications/MAMP/htdocs/jvb/include/banner.php",
+		"/Applications/MAMP/htdocs/jvb/footer.php",
+		"/Applications/MAMP/htdocs/wpf/wpf-live/.htaccess",
+		"/Applications/MAMP/htdocs/wpf/wpf-live/process_form.php",
+		"/Applications/MAMP/htdocs/wpf/wpf-live/blog/wp-admin/profile.php",
+		"/Applications/MAMP/htdocs/wpf/wpf-live/admin/update_partner_rows.php",
+		"/Applications/MAMP/htdocs/wpf/wpf-live/blog/wp-content/themes/wpf/page.php",
+		"/Applications/MAMP/htdocs/wpf/wpf-live/wpf-live.sublime-project",
+		"/Applications/MAMP/htdocs/wpf/wpf-live/includes/header.php",
+		"/Applications/MAMP/htdocs/wpf/wpf-live/topic.php",
+		"/Applications/MAMP/htdocs/wpf/wpf-live/includes/header_page.php",
+		"/Applications/MAMP/htdocs/wpf/wpf-live/ecotrailers.php",
+		"/Applications/MAMP/htdocs/wpf/wpf-live/blog/wp-content/themes/wpf/404.php",
+		"/Applications/MAMP/htdocs/wpf/wpf-live/functionsWPF.php",
+		"/Applications/MAMP/htdocs/wpf/wpf-live/includes/header_common.php",
+		"/Applications/MAMP/htdocs/wpf/wpf-live/blog/wp-content/themes/wpf/header.php",
+		"/Applications/MAMP/htdocs/wpf/wpf-live/CSS/base_styles.css",
+		"/Applications/MAMP/htdocs/wpf/wpf-live/admin/open_cn.php",
+		"/Applications/MAMP/htdocs/wpf/wpf-live/admin/edit_video_main.php",
+		"/Applications/MAMP/htdocs/wpf/wpf-live/includes/box_frontpage_news.php",
+		"/Applications/MAMP/htdocs/wpf/wp-security/config.php",
+		"/Applications/MAMP/htdocs/wpf/wpf-live/blog/wp-config.php",
+		"/Applications/MAMP/htdocs/wpf/wpf-live/index.php",
+		"/Applications/MAMP/htdocs/wpf/wpf-live/blog/index.php",
+		"/Applications/MAMP/htdocs/wpf/wpf-live/admin/index.php",
+		"/Users/flintlee/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Applications/MAMP/htdocs/wpf/wpf-live/index.html",
+		"/Applications/MAMP/htdocs/wpf/wpf-live/admin/open_cn_live.php",
+		"/Volumes/GREEN 1350GB - CODER/__PROJECTS - TO SORT/sandy - a stylesheet for sagerss.com.css",
+		"/Volumes/GREEN 1350GB - CODER/__PROJECTS - TO SORT/style (SMTV).css",
+		"/Volumes/GREEN 1350GB - CODER/__PROJECTS - TO SORT/blogThis.reg",
+		"/Volumes/GREEN 1350GB - CODER/__PROJECTS - TO SORT/http%3a%2f%2fmirrors.dotsrc.org%2fcygwin%2f/setup.ini",
+		"/Users/flintlee/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/flintlee/Desktop/requireJS-Learning/create-template-master/package.json",
+		"/Users/flintlee/Desktop/brackets-emmet/keymap.json",
+		"/Users/flintlee/Desktop/amazon/classes/amazon.order.class.php",
+		"/Users/flintlee/Desktop/amazon/classes/amazon.payment.class.php",
+		"/Users/flintlee/Desktop/amazon/OrdersAmazon.php",
+		"/Users/flintlee/Desktop/amazon/amazon.php",
+		"/Users/flintlee/Desktop/amazon/validate/AmazonHTML.php",
+		"/Users/flintlee/Desktop/amazon/validate/AmazonProduct.php",
+		"/Users/flintlee/Desktop/amazon/validate/AmazonValidator.php",
+		"/Users/flintlee/Desktop/amazon/validate/AmazonXmlParse.php",
+		"/Users/flintlee/Desktop/amazon/validate/AmazonXSD.php",
+		"/Users/flintlee/Desktop/amazon/validate/index.php",
+		"/Users/flintlee/Desktop/amazon/validate/Node.php",
+		"/Users/flintlee/Desktop/amazon/ProductsAmazon.php",
+		"/Users/flintlee/Desktop/js libs/jquery.inview.js",
+		"/Users/flintlee/Desktop/LOVING HUT/_WEBSITE/LOVING HUT PENSION website/html/language folders/de/contact.html",
+		"/Users/flintlee/Desktop/LOVING HUT/_WEBSITE/LOVING HUT PENSION website/html/contact_pt.html",
+		"/Users/flintlee/Desktop/LOVING HUT/_WEBSITE/LOVING HUT PENSION website/html/contact_it.html",
+		"/Users/flintlee/Desktop/LOVING HUT/_WEBSITE/LOVING HUT PENSION website/html/contact_es.html",
+		"/Users/flintlee/Desktop/LOVING HUT/_WEBSITE/LOVING HUT PENSION website/html/contact_en.html",
+		"/Users/flintlee/Desktop/LOVING HUT/_WEBSITE/LOVING HUT PENSION website/html/contact_cn.html",
+		"/Users/flintlee/Desktop/LOVING HUT/_WEBSITE/LOVING HUT PENSION website/html/contact_ch.html",
+		"/Users/flintlee/Desktop/LOVING HUT/_WEBSITE/LOVING HUT PENSION website/html/contact_al.html",
+		"/Users/flintlee/Desktop/LOVING HUT/_WEBSITE/LOVING HUT PENSION website/html/contact.html",
+		"/Users/flintlee/Desktop/LOVING HUT/_WEBSITE/LOVING HUT PENSION website/LHP.sublime-project",
+		"/Users/flintlee/Desktop/LOVING HUT/_WEBSITE/LOVING HUT PENSION website/html/index_pt.html",
+		"/Users/flintlee/Desktop/LOVING HUT/_WEBSITE/LOVING HUT PENSION website/html/index_it.html",
+		"/Users/flintlee/Desktop/LOVING HUT/_WEBSITE/LOVING HUT PENSION website/html/index_es.html",
+		"/Users/flintlee/Desktop/LOVING HUT/_WEBSITE/LOVING HUT PENSION website/html/index_cn.html",
+		"/Users/flintlee/Desktop/LOVING HUT/_WEBSITE/LOVING HUT PENSION website/html/index_ch.html",
+		"/Users/flintlee/Desktop/LOVING HUT/_WEBSITE/LOVING HUT PENSION website/html/index_al.html",
+		"/Users/flintlee/Desktop/LOVING HUT/_WEBSITE/LOVING HUT PENSION website/html/index_en.html",
+		"/Users/flintlee/Desktop/LOVING HUT/LOVING HUT PENSION website/html/index.html",
+		"/Users/flintlee/Desktop/LOVING HUT/LOVING HUT PENSION website/html/index_old.html",
+		"/Users/flintlee/Desktop/LOVING HUT/LOVING HUT PENSION website/html/index_en_test_scroller.html",
+		"/Users/flintlee/Desktop/LOVING HUT/LOVING HUT PENSION website/html/css/main.css",
+		"/Users/flintlee/Desktop/LOVING HUT/LOVING HUT PENSION website/html/index_en_old.html",
+		"/Users/flintlee/Desktop/LOVING HUT/LOVING HUT PENSION website/html/media.html",
+		"/Users/flintlee/Desktop/LOVING HUT/LOVING HUT PENSION website/html/inn_en.html",
+		"/Users/flintlee/Desktop/LOVING HUT/LOVING HUT PENSION website/html/inn.html",
+		"/Users/flintlee/Desktop/LOVING HUT/LOVING HUT PENSION website/html/inn_ch.html",
+		"/Users/flintlee/Desktop/LOVING HUT/LOVING HUT PENSION website/html/inn_cn.html",
+		"/Users/flintlee/Desktop/LOVING HUT/LOVING HUT PENSION website/html/inn_es.html",
+		"/Users/flintlee/Desktop/LOVING HUT/LOVING HUT PENSION website/html/inn_it.html",
+		"/Users/flintlee/Desktop/LOVING HUT/LOVING HUT PENSION website/html/inn_pt.html",
+		"/Users/flintlee/Desktop/LOVING HUT/LOVING HUT PENSION website/html/inn_al.html",
+		"/Users/flintlee/Desktop/LOVING HUT/LOVING HUT PENSION website/html/index_en.html",
+		"/Users/flintlee/Desktop/LOVING HUT/LOVING HUT PENSION website/html/sitemap.html",
+		"/Users/flintlee/Desktop/_30 days to learn jQuery/lesson-07/index.html",
+		"/Users/flintlee/Desktop/_30 days to learn jQuery/lesson-08/index v2.html",
+		"/Users/flintlee/Desktop/_30 days to learn jQuery/lesson-09/index.html",
+		"/Users/flintlee/Desktop/_30 days to learn jQuery/lesson-08/index.html",
+		"/Users/flintlee/Desktop/_30 days to learn jQuery/lesson-05/lesson-5/index.html",
+		"/Users/flintlee/Desktop/_30 days to learn jQuery/lesson-05/lesson-5/style.css",
+		"/Users/flintlee/Desktop/_30 days to learn jQuery/lesson-04/index.html",
+		"/Users/flintlee/Desktop/_30 days to learn jQuery/lesson-03/index.html",
+		"/Users/flintlee/Library/Application Support/Sublime Text 2/Packages/DashDoc/Default (OSX).sublime-keymap",
+		"/Applications/MAMP/htdocs-vegusto-live/.htaccess",
+		"/var/folders/dm/12gj83s12r5dvv58x5szzyj00000gn/T/sublime-sftp-browse-1394639588/mapped/httpdocs/.htaccess",
+		"/Users/flintlee/Library/Application Support/Sublime Text 2/Packages/User/sftp_servers/vegusto",
+		"/Users/flintlee/Library/Application Support/Sublime Text 2/Packages/SFTP/Default (OSX).sublime-keymap",
+		"/Users/flintlee/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Applications/MAMP/htdocs-vegusto-live/phpinfo.php",
+		"/Applications/MAMP/htdocs-vegusto-live/controllers/admin/AdminAccessController.php",
+		"/Applications/MAMP/htdocs-vegusto-live/controllers/admin/AdminAddonsCatalogController.php",
+		"/Applications/MAMP/htdocs-vegusto-live/sftp-config.json",
+		"/Applications/MAMP/htdocs-vegusto-live/modules/allproducts/controllers/front/products.php",
+		"/Users/flintlee/Library/Application Support/Sublime Text 2/Packages/Alignment/Default (OSX).sublime-keymap",
+		"/Applications/MAMP/htdocs-jqiav2/chapter1/listing-1.1.html",
+		"/Applications/MAMP/htdocs-jqiav2/chapter1/radio.group.html",
+		"/Users/flintlee/Library/Application Support/Sublime Text 2/Packages/User/SFTP.errors.log",
+		"/Users/flintlee/Library/Application Support/Sublime Text 2/Packages/User/SFTP.sublime-settings",
+		"/var/folders/dm/12gj83s12r5dvv58x5szzyj00000gn/T/sublime-sftp-browse-1392980112/mapped/public_html/jqia2/chapter1/radio.group.html",
+		"/Applications/MAMP/sublime-jqiav2/jqiav2.sublime-project",
+		"/var/folders/dm/12gj83s12r5dvv58x5szzyj00000gn/T/sublime-sftp-browse-1392975413/vegusto/httpdocs/classes/controller/AdminController.php",
+		"/Users/flintlee/Library/Application Support/Sublime Text 2/Packages/SFTP/SFTP.sublime-settings",
+		"/Applications/MAMP/htdocs-jqiav2/.htaccess",
+		"/Users/flintlee/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/flintlee/Desktop/this-week.TODO",
+		"/Users/flintlee/Library/Application Support/Sublime Text 2/Packages/PlainTasks/messages/Tutorial.todo",
+		"/Users/flintlee/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/flintlee/Library/Application Support/Sublime Text 2/Packages/User/JSON.sublime-settings",
+		"/Users/flintlee/Library/Application Support/Sublime Text 2/Packages/User/Distraction Free.sublime-settings"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"<open files>,<open folders>",
+			"<open files>",
+			"/Volumes/vegusto.co.uk/httpdocs/shop/modules/m4pdf",
+			"/Volumes/vegusto.co.uk/httpdocs/shop",
+			"/Volumes/vegusto.co.uk/httpdocs/shop/modules/sagepay",
+			"/Volumes/vegusto.co.uk/httpdocs/shop/themes/PRS010006",
+			"/Volumes/vegusto.co.uk/httpdocs/shop",
+			"/Volumes/vegusto.co.uk/httpdocs/shop/themes/PRS010006"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"'",
+			"+ '",
+			") {",
+			"} else if(",
+			"} else if",
+			"true",
+			"that",
+			"section",
+			"WPF",
+			"mysql_query",
+			" ?>",
+			"<?php",
+			"lavaLamp",
+			"header_common",
+			" ?>",
+			"<?php ",
+			"if",
+			"<?php ",
+			"wpf_path",
+			"$wpf_path",
+			"ord",
+			"includes",
+			"ord",
+			"includes",
+			"ord",
+			"PHP Warning",
+			"ord",
+			"Searching",
+			"ord",
+			"url",
+			"URL",
+			"url",
+			"URL",
+			"{ENV:myServerName}",
+			"www.worldpreservationfoundation.org",
+			"wpf_path",
+			"http",
+			"<p>",
+			"p",
+			"euro",
+			"t_and_c",
+			"\"",
+			"user",
+			",",
+			"/\",\n",
+			",",
+			"(?<=<div>'\\+).*(?=\\+'</div>)",
+			"(?<=<div>'\\+).*(?='</div>)",
+			"(?<=<div>'\\+).*(?=</div>)",
+			"(?<=<div>'+).*(?=</div>)",
+			"(?<=<div>').*(?=</div>)",
+			"(?<=<div>).*(?=</div>)",
+			"name",
+			"side_b",
+			"side_bar",
+			"jQuery",
+			"jquery",
+			"jadf",
+			"jQuery",
+			"jquery",
+			"href",
+			"//",
+			"getlist",
+			"fieldsDisplay",
+			"displayListContent",
+			"displayListFooter",
+			"Create PDF",
+			"getContent",
+			"_displayNavigationRight",
+			"tab-stats.gif",
+			"orderFilter_os",
+			"orderFilter_os!id_order_state",
+			"orders with details",
+			"Orders with details",
+			"orders with details",
+			"Orders with details",
+			"orders with details",
+			"Orders with details",
+			"<select",
+			"Templates",
+			"Orders with details",
+			"header",
+			"word",
+			"line-height",
+			"payment_choice",
+			"paypal_process_payment",
+			"/sg",
+			"/module",
+			"/module//sg",
+			"veebipood",
+			"free",
+			"ordermsg",
+			"faq_page",
+			".faq_page",
+			".faq",
+			"Create PDF File",
+			"delivery options",
+			"categories_block_left",
+			"categories_block",
+			"product_list_b2b",
+			"q_and_add",
+			"veebipood",
+			"item_descrition",
+			"payment_module",
+			"address_update",
+			"a.exclusive",
+			"ul.step",
+			"a:active",
+			"<body",
+			"submit",
+			"-submit",
+			"module-paypal",
+			"module-paypal-submit",
+			"module_paypal_submit",
+			"name",
+			"private",
+			"changing status",
+			"body",
+			"header",
+			"body",
+			"include",
+			"legend",
+			"messages",
+			"starter",
+			"£10",
+			"When you navigate away from this page",
+			"submitAddPayment",
+			"RENDERview"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"sagepaypaypal"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 118.0
+	},
+	"output.sftp":
+	{
+		"height": 444.0
+	},
+	"project": "hello.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"proj",
+				"wpf-live/wpf-live.sublime-project"
+			],
+			[
+				"project",
+				"wpf-live.sublime-project"
+			],
+			[
+				"m4pdf",
+				"m4pdf.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 293.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
