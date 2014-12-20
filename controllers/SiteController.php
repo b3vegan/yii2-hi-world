@@ -8,6 +8,8 @@ use Yii;
 use yii\filters\AccessControl;
 use yii\filters\VerbFilter;
 use yii\web\Controller;
+use app\models\EntryForm;
+
 
 class SiteController extends Controller {
 	public function behaviors() {
@@ -88,6 +90,24 @@ class SiteController extends Controller {
 
 	public function actionSay($target = 'World') {
 		return $this->render('say', ['target' => $target]);
+	}
+
+	public function actionEntry() {
+		$model = new EntryForm;
+
+		if ( $model->Load(Yii::$app->request->post()) && $model->validate() ) {
+			//valid data received in $model
+
+			//do something here with $model
+
+			return $this->render('entry-confirm', ['model' => $model]);
+
+		} else {
+			//either the page is initially displayed, or there is some validation error
+			return $this->render('entry', ['model' => $model]);
+		}
+
+
 	}
 
 }

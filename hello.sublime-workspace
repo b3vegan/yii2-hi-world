@@ -87,9 +87,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 47.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"phpfmt",
+				"phpfmt: toggle format on save"
+			],
 			[
 				"syn json",
 				"Set Syntax: JSON"
@@ -312,10 +316,21 @@
 	},
 	"expanded_folders":
 	[
-		"/Applications/MAMP/htdocs/hello"
+		"/Applications/MAMP/htdocs/hello",
+		"/Applications/MAMP/htdocs/hello/config",
+		"/Applications/MAMP/htdocs/hello/controllers",
+		"/Applications/MAMP/htdocs/hello/views",
+		"/Applications/MAMP/htdocs/hello/views/layouts",
+		"/Applications/MAMP/htdocs/hello/views/site",
+		"/Applications/MAMP/htdocs/hello/web"
 	],
 	"file_history":
 	[
+		"/Applications/MAMP/htdocs/hello/config/web.php",
+		"/Applications/MAMP/htdocs/hello/controllers/SiteController.php",
+		"/Applications/MAMP/htdocs/hello/views/site/say.php",
+		"/Applications/MAMP/htdocs/hello/.gitignore",
+		"/Applications/MAMP/htdocs/hello/web/.htaccess",
 		"/Applications/MAMP/htdocs/twitter-widget-source/demo 4/js/twitter-widget.js",
 		"/Users/flintlee/Desktop/Crockford Best Practices.js",
 		"/Users/flintlee/Desktop/Crockford Best Practices",
@@ -438,12 +453,7 @@
 		"/var/folders/dm/12gj83s12r5dvv58x5szzyj00000gn/T/sublime-sftp-browse-1392975413/vegusto/httpdocs/classes/controller/AdminController.php",
 		"/Users/flintlee/Library/Application Support/Sublime Text 2/Packages/SFTP/SFTP.sublime-settings",
 		"/Applications/MAMP/htdocs-jqiav2/.htaccess",
-		"/Users/flintlee/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
-		"/Users/flintlee/Desktop/this-week.TODO",
-		"/Users/flintlee/Library/Application Support/Sublime Text 2/Packages/PlainTasks/messages/Tutorial.todo",
-		"/Users/flintlee/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-		"/Users/flintlee/Library/Application Support/Sublime Text 2/Packages/User/JSON.sublime-settings",
-		"/Users/flintlee/Library/Application Support/Sublime Text 2/Packages/User/Distraction Free.sublime-settings"
+		"/Users/flintlee/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap"
 	],
 	"find":
 	{
